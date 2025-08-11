@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amberley House Luxury Apartment</title>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="css/animation.css">
+  <!-- <link rel="stylesheet" href="css/font-icons.css" type="text/css" /> -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+  <script src="script/script.js"></script>
+  <script type="text/javascript" src="script/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="script/bootstrap.js"></script>
+</head>
+
+<body>
+
+  <section style="padding-top: 100px;padding-bottom: 50px;">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 d-flex justify-content-center align-items-center">
+          <div>
+            <h1 class="font_custom1 mb-3 fade-in-up hidden" style="font-size: 50px;">Amberley House <br> Luxury
+              Apartment
+            </h1>
+
+            <p class="fade-in-up hidden"> <b>Where Elegance Meets Everyday Living – Discover Your
+                Sanctuary at Amberley House.</b>
+              Nestled in a serene and prestigious location, Amberley House offers a perfect blend of sophistication and
+              comfort.</p>
+
+            <div class="mt-2">
+              <button type="button" class="btn btn-outline-dark"><i class="fa-solid fa-house mr-2"></i>Register
+                Today</button>
+              <!-- <button type="button" class="btn btn-outline-dark">Brochure</button> -->
+            </div>
+            <br>
+            <div class="row text-center mt-4">
+              <div class="col-3 fade-in-up hidden" data-delay="1.7s">
+                <h5>65</h5>
+                <h6 class="text-secondary">Luxury Units</h6>
+              </div>
+              <div class=" col-1">
+                <div class="divider"></div>
+              </div>
+              <div class="col-3 fade-in-up hidden" data-delay="1.8s">
+                <h5>3BHK</h5>
+                <h6 class="text-secondary">Apartments</h6>
+              </div>
+              <div class=" col-1">
+                <div class="divider"></div>
+              </div>
+              <div class="col-3 fade-in-up hidden" data-delay="1.9s">
+                <h5>12 - 8 </h5>
+                <h6 class="text-secondary">Storey Blocks</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 mt-3 mt-lg-0">
+          <section class="slider_section">
+            <div id="customCarousel1" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner slide-in-right">
+                <div class="carousel-item active" data-interval="4000">
+                  <div class="img-box">
+                    <img src="assets/img1.jpg" alt="" width="100%">
+                  </div>
+                </div>
+                <div class="carousel-item" data-interval="4000">
+                  <div class="img-box">
+                    <img src="assets/img2.jpg" alt="" width="100%">
+                  </div>
+                </div>
+                <div class="carousel-item" data-interval="4000">
+                  <div class="img-box">
+                    <img src="assets/img8.jpg" alt="" width="100%">
+                  </div>
+                </div>
+                <div class="carousel-item" data-interval="4000">
+                  <div class="img-box">
+                    <img src="assets/img5.jpg" alt="" width="100%">
+                  </div>
+                </div>
+              </div>
+
+              <ol class="carousel-indicators">
+                <li data-target="#customCarousel1" data-slide-to="0" class="active"></li>
+                <li data-target="#customCarousel1" data-slide-to="1"></li>
+                <li data-target="#customCarousel1" data-slide-to="2"></li>
+                <li data-target="#customCarousel1" data-slide-to="3"></li>
+              </ol>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="custom_container">
+    <div class="container">
+      <div class=" ">
+        <h1 class="txt text-center">Find Your Perfect <br> Match</h1>
+        <div class="row">
+          <div class="col-lg  p-1">
+            <div class="card tall">
+              <img src="assets/img6.jpg" alt="Fashion 1" width="100%" height="100%">
+            </div>
+          </div>
+          <div class="col-lg align-self-end p-1">
+            <div class="card medium">
+              <img src="assets/img1.jpg" alt="Fashion 2" width="100%" height="100%">
+            </div>
+            <div class="card small mt-2">
+              <img src="assets/img2.jpg" alt="Fashion 4" width="100%" height="100%">
+            </div>
+          </div>
+          <div class="col-lg align-self-end p-1">
+            <div class="card medium">
+              <img src="assets/img6.jpg" alt="Fashion 3" width="100%" height="100%">
+            </div>
+            <a href="#">
+              <button class="btn text-white rounded-pill w-100 mt-2 mb-2 pt-2 pb-2"
+                style="background-color: black;">Explore Collections &nbsp; →</button>
+            </a>
+
+          </div>
+          <div class="col-lg align-self-end p-1">
+            <div class="card small">
+              <img src="assets/img2.jpg" alt="Fashion 4" width="100%" height="100%">
+            </div>
+            <div class="card medium mt-2">
+              <img src="assets/img1.jpg" alt="Fashion 4" width="100%" height="100%">
+            </div>
+          </div>
+          <div class="col-lg p-1">
+            <div class="card tall">
+              <img src="assets/img6.jpg" alt="Fashion 6" width="100%" height="100%">
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 mt-4">
+            <p class="mb-0 text-dark text-center pl-5 ml-5">→</p>
+
+            <p class="mb-0 text-secondary">Experience Refined Comfort at Amberley House.</p>
+          </div>
+
+          <div class="col-lg-6 d-flex justify-content-end mt-4">
+            <ul style="list-style: none;" class="d-flex mb-0">
+              <li class="m-2 me-4 mb-0 ">
+                <a href="" target="_blank"><i class="fa-brands fa-instagram fs_custom" style="color:#E1306C;"></i></a>
+              </li>
+              <li class="m-2 me-4 mb-0">
+                <a href="" target="_blank">
+                  <i class="fa-brands fa-x-twitter fs_custom" style="color: #000;"></i>
+                </a>
+              </li>
+              <li class="m-2  me-4 mb-0">
+                <a href="" target="_blank"><i class="fa-brands fa-facebook text-primary fs_custom"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+  <section class="custom_container">
+    <div class="black-section">
+      <div class="container">
+        <div class="text-center">
+          <h1 class="fw-bold">Find Your Perfect Available Units</h1>
+          <p class="text-muted"> Right Now</p>
+        </div>
+        <div class="row justify-content-center">
+
+          <div class="col-lg-3 text-center">
+            <div class="card slide-in-left" data-delay="0.3s">
+              <img src="assets/img2.jpg" class="card-img-top" alt="House 2">
+            </div>
+            <div class="card mt-3 slide-in-left" data-delay="0.4s">
+              <div class="card-body d-flex flex-column justify-content-between">
+                <div>
+                  <h5>1BHK</h5>
+                  <!-- <p class="text-muted mb-3"><i class="bi bi-geo-alt"></i> Evergreen Chemists</p> -->
+                  <p>Cozy, calm, and completely yours.</p>
+                  <div class="d-flex justify-content-between text-muted mb-2">
+                    <div><i class="fa-solid fa-door-closed mr-2"></i>2</div>
+                    <div><i class="fa-solid fa-shower mr-2"></i>1</div>
+                    <div><i class="fa-solid fa-euro-sign mr-1"></i> 7,20,000</div>
+                  </div>
+                </div>
+              <a href="#" class="text-primary fw-semibold text-decoration-none">See Details →</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 text-center">
+            <div class="card">
+              <img src="assets/img2.jpg" class="card-img-top" alt="House 2">
+            </div>
+            <div class="card mt-3">
+              <div class="card-body d-flex flex-column justify-content-between">
+                <div>
+                  <h5>2BHK</h5>
+                  <!-- <p class="text-muted mb-3"><i class="bi bi-geo-alt"></i> Evergreen Chemists</p> -->
+                  <p>Twice the comfort, double the charm.</p>
+                  <div class="d-flex justify-content-between text-muted mb-2">
+                    <div><i class="fa-solid fa-door-closed mr-2"></i>2</div>
+                    <div><i class="fa-solid fa-shower mr-2"></i>2</div>
+                    <div><i class="fa-solid fa-euro-sign mr-1"></i> 7,20,000</div>
+                  </div>
+                </div>
+                <a href="#" class="text-primary fw-semibold text-decoration-none">See Details →</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 text-center">
+            <div class="card slide-in-right" data-delay="0.3s">
+              <img src="assets/img2.jpg" class="card-img-top" alt="House 2">
+            </div>
+            <div class="card mt-3 slide-in-right" data-delay="0.4s">
+              <div class="card-body d-flex flex-column justify-content-between">
+                <div>
+                  <h5>STUDIO</h5>
+                  <!-- <p class="text-muted mb-3"><i class="bi bi-geo-alt"></i> Evergreen Chemists</p> -->
+                  <p>Designed for modern, minimal living.</p>
+                  <div class="d-flex justify-content-between text-muted mb-2">
+                    <div><i class="fa-solid fa-door-closed mr-2"></i>2</div>
+                    <div><i class="fa-solid fa-shower mr-2"></i>2</div>
+                    <div><i class="fa-solid fa-euro-sign mr-1"></i> 7,20,000</div>
+                  </div>
+                </div>
+                <a href="#" class="text-primary fw-semibold text-decoration-none">See Details →</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+
+</html>

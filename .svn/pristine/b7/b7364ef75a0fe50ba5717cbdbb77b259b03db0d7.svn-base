@@ -1,0 +1,58 @@
+document.addEventListener("DOMContentLoaded", () => {
+    const elements = document.querySelectorAll('.fade-in-up');
+
+    const scrollTrigger = () => {
+        elements.forEach(el => {
+            const rect = el.getBoundingClientRect();
+            const inView = rect.top < window.innerHeight - 100;
+
+            if (inView && !el.classList.contains('show')) {
+                const delay = el.getAttribute('data-delay') || '0s';
+                el.style.transitionDelay = delay;
+                el.classList.add('show');
+            }
+        });
+    };
+
+    window.addEventListener('scroll', scrollTrigger);
+    scrollTrigger(); // trigger on load
+});
+document.addEventListener("DOMContentLoaded", function () {
+    const elements = document.querySelectorAll(".slide-in-left, .slide-in-right");
+
+    const scrollTrigger = () => {
+        elements.forEach(el => {
+            const rect = el.getBoundingClientRect();
+            const inView = rect.top < window.innerHeight - 100;
+
+            if (inView && !el.classList.contains("show")) {
+                const delay = parseInt(el.dataset.delay) || 0; // default to 0 if not set
+                setTimeout(() => {
+                    el.classList.add("show");
+                }, delay);
+            }
+        });
+    };
+
+    window.addEventListener("scroll", scrollTrigger);
+    scrollTrigger(); // initial check
+});
+
+document.addEventListener("DOMContentLoaded", () => {
+    const elements = document.querySelectorAll('.cube-slide');
+
+    const scrollTrigger = () => {
+        elements.forEach(el => {
+            const rect = el.getBoundingClientRect();
+            const inView = rect.top < window.innerHeight - 100;
+            if (inView) {
+                el.classList.add('show');
+            }
+        });
+    };
+
+    window.addEventListener('scroll', scrollTrigger);
+    scrollTrigger(); // initial check
+});
+
+

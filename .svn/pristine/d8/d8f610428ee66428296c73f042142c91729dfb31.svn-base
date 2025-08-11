@@ -1,0 +1,141 @@
+body {
+    font-weight: 350 !important;
+    font-style: normal;
+    font-size: 16px;
+    /* letter-spacing: 2px; */
+    line-height: 1.7rem !important;
+    /* word-wrap: break-word; */
+    /* text-align: justify; */
+}
+
+@media only screen and (max-width: 991px) {
+    .custom_display_mobile {
+        display: none !important;
+    }
+
+    .font_custom_size {
+        font-size: 30px !important;
+    }
+
+}
+
+@media only screen and (min-width: 992px) {
+
+    .custom_display {
+        display: none !important;
+    }
+
+    /* .gallery{
+        display: block;
+    } */
+
+}
+
+
+@media only screen and (max-width: 992px) {}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+
+.font_custom1 {
+    font-family: "Roboto Slab", serif;
+    letter-spacing: 0px;
+}
+
+.custom_container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.divider {
+    height: 70px;
+    width: 1px;
+    background-color: #1b1a1a;
+}
+
+.txt{
+    font-size:60px;
+    font-family: 'ED Garamond', serif;
+}
+.card.tall {
+    height: 450px;
+}
+
+/* .card.small {
+    height: 150px;
+} */
+
+.card.medium {
+    height: 250px;
+}
+
+.fs_custom{
+    font-size: 30px;
+}
+
+.black-section {
+    background-color: #121212;
+    background-image: linear-gradient(white 50%,black 50%);
+    padding-bottom: 100px;
+}
+
+.card{
+  overflow: hidden;
+}
+.card-img-top {
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover .card-img-top {
+  transform: scale(1.1) rotate(0deg) skew(0deg);
+
+}
+
+
+.glass {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    border-radius: 15px;
+  }
+
+.custom-border-top {
+     border-top: 1px solid rgba(255, 255, 255, 0.4); /* white with 40% opacity */
+  }
+ 
+   .footer-link:hover {
+    color: #b8860b !important;
+   
+  }
+ 
+   .nav-link:hover {
+    color: #b8860b !important;
+   
+  }
+ .divider1 {
+    height: 25px;
+    width: 1px;
+    background-color: #b8860b;
+    display: none;
+}
+ 
+@media (min-width: 992px) {
+    .divider1 {
+        display: block;
+    }
+}
+ 
+ 
+.txt{
+    color: #b8860b
+ 
+}
+ 
+@media (max-width: 768px) {
+  #promoModal img.img-fluid {
+    max-height: 300px;
+    object-fit: cover;
+    padding-bottom: 5px;
+  }
+}

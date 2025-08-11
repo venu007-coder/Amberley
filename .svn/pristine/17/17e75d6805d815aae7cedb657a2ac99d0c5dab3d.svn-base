@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amberley House Luxury Apartment</title>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+  <link rel="stylesheet" href="css/animation.css">
+  <link rel="stylesheet" href="css/font-icons.css" type="text/css" />
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+  <script src="script/script.js"></script>
+  <script type="text/javascript" src="script/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="script/bootstrap.js"></script>
+</head>
+
+<body>
+
+  <section class="custom_container">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 d-flex justify-content-center align-items-center">
+          <div>
+            <h1 class="font_custom1 mb-3 fade-in-up hidden" style="font-size: 50px;">Amberley House <br> Luxury
+              Apartment
+            </h1>
+
+            <p class="fade-in-up hidden"> <b>Where Elegance Meets Everyday Living – Discover Your
+                Sanctuary at Amberley House.</b>
+              Nestled in a serene and prestigious location, Amberley House offers a perfect blend of sophistication and
+              comfort.</p>
+
+            <div class="mt-2">
+              <button type="button" class="btn btn-outline-dark">Register Today</button>
+              <!-- <button type="button" class="btn btn-outline-dark">Brochure</button> -->
+            </div>
+            <br>
+            <div class="row text-center mt-4">
+              <div class="col-3 fade-in-up hidden" data-delay="1.7s">
+                <h5>65</h5>
+                <h6 class="text-secondary">Luxury Units</h6>
+              </div>
+              <div class=" col-1">
+                <div class="divider"></div>
+              </div>
+              <div class="col-3 fade-in-up hidden" data-delay="1.8s">
+                <h5>3BHK</h5>
+                <h6 class="text-secondary">Apartments</h6>
+              </div>
+              <div class=" col-1">
+                <div class="divider"></div>
+              </div>
+              <div class="col-3 fade-in-up hidden" data-delay="1.9s">
+                <h5>12 - 8 </h5>
+                <h6 class="text-secondary">Storey Blocks</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 mt-3 mt-lg-0">
+          <section class="slider_section">
+            <div id="customCarousel1" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner slide-in-right">
+                <div class="carousel-item active" data-interval="4000">
+                  <div class="img-box">
+                    <img src="assets/img1.jpg" alt="" width="100%">
+                  </div>
+                </div>
+                <div class="carousel-item" data-interval="4000">
+                  <div class="img-box">
+                    <img src="assets/img2.jpg" alt="" width="100%">
+                  </div>
+                </div>
+                <div class="carousel-item" data-interval="4000">
+                  <div class="img-box">
+                    <img src="assets/img8.jpg" alt="" width="100%">
+                  </div>
+                </div>
+                <div class="carousel-item" data-interval="4000">
+                  <div class="img-box">
+                    <img src="assets/img5.jpg" alt="" width="100%">
+                  </div>
+                </div>
+              </div>
+
+              <ol class="carousel-indicators">
+                <li data-target="#customCarousel1" data-slide-to="0" class="active"></li>
+                <li data-target="#customCarousel1" data-slide-to="1"></li>
+                <li data-target="#customCarousel1" data-slide-to="2"></li>
+                <li data-target="#customCarousel1" data-slide-to="3"></li>
+              </ol>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="custom_container">
+    <div class="container">
+      <div class=" text-center">
+        <h1 class="txt">Luxury Apartments</h1>
+
+        <div class="row">
+          <div class="col-lg  p-1">
+            <div class="card tall">
+              <img src="assets/img6.jpg" alt="Fashion 1" width="100%" height="100%">
+            </div>
+          </div>
+          <div class="col-lg align-self-end p-1">
+            <div class="card medium">
+              <img src="assets/img1.jpg" alt="Fashion 2" width="100%"  height="100%">
+            </div>
+            <div class="card small mt-2">
+              <img src="assets/img2.jpg" alt="Fashion 4" width="100%"  height="100%">
+            </div>
+          </div>
+          <div class="col-lg align-self-end p-1">
+            <div class="card medium">
+              <img src="assets/img6.jpg" alt="Fashion 3" width="100%"  height="100%">
+            </div>
+                        <button class="btn text-white rounded-pill w-100 mt-2 mb-2 pt-2 pb-2" style="background-color: black;">Explore Collections &nbsp; →</button>
+
+          </div>
+          <div class="col-lg align-self-end p-1">
+            <div class="card small">
+              <img src="assets/img2.jpg" alt="Fashion 4" width="100%"  height="100%">
+            </div>
+            <div class="card medium mt-2">
+              <img src="assets/img1.jpg" alt="Fashion 4" width="100%"  height="100%">
+            </div>
+          </div>
+          <div class="col-lg p-1">
+            <div class="card tall">
+              <img src="assets/img6.jpg" alt="Fashion 6" width="100%"  height="100%">
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-6"></div>
+          <div class="col-6">
+
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+  <section class="custom_container">
+     <div class="container py-5 text-center">
+    <h1 class="fw-bold">Featured Properties</h1>
+    <p class="text-muted">Explore our latest listings</p>
+  </div>
+
+  <!-- Black Background Section -->
+  <div class="black-section">
+    <div class="container floating-cards">
+      <div class="row g-4 justify-content-center">
+
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm property-card">
+            <img src="assets/img1.jpg" class="card-img-top" alt="House 1">
+            <div class="card-body d-flex flex-column justify-content-between">
+              <div>
+                <h5 class="card-title mb-1">The Queen Inside - Type 3</h5>
+                <p class="text-muted mb-3"><i class="bi bi-geo-alt"></i> Evergreen Chemists</p>
+                <div class="d-flex justify-content-between text-muted mb-3">
+                  <div><i class="bi bi-house-door"></i> 2</div>
+                  <div><i class="bi bi-droplet"></i> 2</div>
+                  <div><i class="bi bi-currency-dollar"></i> 7,20,000</div>
+                </div>
+              </div>
+              <a href="#" class="text-primary fw-semibold text-decoration-none">See Details →</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm property-card">
+            <img src="assets/img2.jpg" class="card-img-top" alt="House 2">
+            <div class="card-body d-flex flex-column justify-content-between">
+              <div>
+                <h5 class="card-title mb-1">The Queen Inside - Type 3</h5>
+                <p class="text-muted mb-3"><i class="bi bi-geo-alt"></i> Evergreen Chemists</p>
+                <div class="d-flex justify-content-between text-muted mb-3">
+                  <div><i class="bi bi-house-door"></i> 2</div>
+                  <div><i class="bi bi-droplet"></i> 2</div>
+                  <div><i class="bi bi-currency-dollar"></i> 7,20,000</div>
+                </div>
+              </div>
+              <a href="#" class="text-primary fw-semibold text-decoration-none">See Details →</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Add more cards here... -->
+
+      </div>
+    </div>
+  </div>
+
+
+  <!-- </div>
+</div> -->
+  </section>
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,29 @@
+/* Slider */
+  .slider_section .carousel-indicators {
+    position: unset;
+    margin: 0;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .slider_section .carousel-indicators li {
+    background-color: #1b1b1b;
+    width: 12px;
+    height: 12px;
+    border-radius: 100%;
+    opacity: 1;
+    margin: 10px 5px;
+    list-style: none;
+
+  }
+  
+  .slider_section .carousel-indicators li.active {
+    width: 20px;
+    height: 20px;
+    background-color: #2f8daa;
+  }
+/* Slider */

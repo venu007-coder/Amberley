@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amberley House Luxury Apartment</title>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="css/animation.css">
+  <!-- <link rel="stylesheet" href="css/font-icons.css" type="text/css" /> -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+  <script src="script/script.js"></script>
+  <script type="text/javascript" src="script/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="script/bootstrap.js"></script>
+</head>
+
+<body>
+   <nav class="navbar navbar-expand-lg navbar-light bg-white position-relative"
+  style="font-size: 18px; font-weight: 400;">
+  <div class="container-fluid position-relative">
+
+    <!-- Logo (both mobile and desktop) -->
+    <a class="navbar-brand" href="#">
+      <img src="assets/LOGOS/logo.svg" alt="Logo" style="height:60px;" class="d-lg-none">
+      <img src="assets/LOGOS/logo.svg" alt="Logo" style="height:100px;" class="d-none d-lg-block">
+    </a>
+
+    <!-- Mobile toggler -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navbar content -->
+    <div class="collapse navbar-collapse justify-content-center" id="navbarContent">
+      <ul class="navbar-nav flex-column flex-lg-row align-items-center justify-content-center gap-0 gap-lg-5 text-center">
+        <li class="nav-item px-4">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <div class="divider1"></div>
+
+        <li class="nav-item px-4">
+          <a class="nav-link" href="Apartment.html">Apartment</a>
+        </li>
+        <div class="divider1"></div>
+
+        <li class="nav-item px-4">
+          <a class="nav-link" href="#">About Us</a>
+        </li>
+        <div class="divider1"></div>
+
+        <li class="nav-item px-4">
+          <a class="nav-link" href="#">Contact Us</a>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Right-side icons -->
+    <div class="d-none d-lg-flex top-50 translate-middle-y end-0 me-4">
+        <a href="#" class="text-dark fs-5 px-2" aria-label="Twitter">
+          <i class="bi bi-twitter-x"></i>
+        </a>
+        <a href="#" class="text-dark fs-5 px-2" aria-label="Instagram">
+          <i class="bi bi-instagram"></i>
+        </a>
+        <a href="#" class="text-dark fs-5 px-2" aria-label="Facebook">
+          <i class="bi bi-facebook"></i>
+        </a>
+      </div>
+
+  </div>
+</nav>
+
+  
+
+  <section style="padding-top: 0px;padding-bottom: 50px;">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 d-flex justify-content-center align-items-center">
+          <div>
+            <h1 class="font_custom1 mb-3 fade-in-up hidden" style="font-size: 50px;">Amberley House <br> Luxury
+              Apartment
+            </h1>
+
+            <p class="fade-in-up hidden"> <b>Where Elegance Meets Everyday Living – Discover Your
+                Sanctuary at Amberley House.</b>
+              Nestled in a serene and prestigious location, Amberley House offers a perfect blend of sophistication and
+              comfort.</p>
+
+            <div class="mt-2">
+              <button type="button" class="btn btn-outline-dark"><i class="fa-solid fa-house mr-2"></i>Register
+                Today</button>
+              <!-- <button type="button" class="btn btn-outline-dark">Brochure</button> -->
+            </div>
+            <br>
+            <div class="row text-center mt-4">
+              <div class="col-3 fade-in-up hidden" data-delay="1.7s">
+                <h5>65</h5>
+                <h6 class="text-secondary">Luxury Units</h6>
+              </div>
+              <div class=" col-1">
+                <div class="divider"></div>
+              </div>
+              <div class="col-3 fade-in-up hidden" data-delay="1.8s">
+                <h5>3BHK</h5>
+                <h6 class="text-secondary">Apartments</h6>
+              </div>
+              <div class=" col-1">
+                <div class="divider"></div>
+              </div>
+              <div class="col-3 fade-in-up hidden" data-delay="1.9s">
+                <h5>12 - 8 </h5>
+                <h6 class="text-secondary">Storey Blocks</h6>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 mt-3 mt-lg-0">
+          <section class="slider_section">
+            <div id="customCarousel1" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner slide-in-right">
+                <div class="carousel-item active" data-bs-interval="10000">
+                  <div class="img-box">
+                    <img src="assets/Home/carousel_img_1.png" alt="" width="100%">
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="4000">
+                  <div class="img-box">
+                    <img src="assets/Home/carousel_img.png" alt="" width="100%">
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="4000">
+                  <div class="img-box">
+                    <img src="assets/Home/carousel_img_2.png" alt="" width="100%">
+                  </div>
+                </div>
+
+              </div>
+
+              <ol class="carousel-indicators">
+                <li data-bs-target="#customCarousel1" data-bs-slide-to="0" class="active"></li>
+                <li data-bs-target="#customCarousel1" data-bs-slide-to="1"></li>
+                <li data-bs-target="#customCarousel1" data-bs-slide-to="2"></li>
+              </ol>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="custom_container">
+    <div class="container">
+      <h1 class="font_custom1 text-center">Find Your Perfect <br> Match</h1>
+      <div class="row">
+        <div class="col-lg  p-1">
+          <div class="card tall clip-animate reveal-on-scroll">
+            <img src="assets/img6.jpg" alt="Fashion 1" width="100%" height="100%">
+          </div>
+        </div>
+        <div class="col-lg align-self-end p-1">
+          <div class="card medium clip-animate reveal-on-scroll" data-delay="1.5s">
+            <img src="assets/img1.jpg" alt="Fashion 2" width="100%" height="100%">
+          </div>
+          <div class="card small mt-2 clip-animate reveal-on-scroll" data-delay="1.5s">
+            <img src="assets/img2.jpg" alt="Fashion 4" width="100%" height="100%">
+          </div>
+        </div>
+        <div class="col-lg align-self-end p-1">
+          <div class="card medium clip-animate reveal-on-scroll" data-delay="1.5s">
+            <img src="assets/img6.jpg" alt="Fashion 3" width="100%" height="100%">
+          </div>
+          <a href="#">
+            <button class="btn text-white rounded-pill w-100 mt-2 mb-2 pt-2 pb-2"
+              style="background-color: black;">Explore Collections &nbsp; →</button>
+          </a>
+
+        </div>
+        <div class="col-lg align-self-end p-1">
+          <div class="card small clip-animate reveal-on-scroll" data-delay="1.5s">
+            <img src="assets/img2.jpg" alt="Fashion 4" width="100%" height="100%">
+          </div>
+          <div class="card medium mt-2 clip-animate reveal-on-scroll" data-delay="1.5s">
+            <img src="assets/img1.jpg" alt="Fashion 4" width="100%" height="100%">
+          </div>
+        </div>
+        <div class="col-lg p-1">
+          <div class="card tall clip-animate reveal-on-scroll">
+            <img src="assets/img6.jpg" alt="Fashion 6" width="100%" height="100%">
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 mt-4">
+          <div class="text-end">
+            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            <p class="mb-0 text-secondary">Experience Refined Comfort at Amberley House.</p>
+          </div>
+        </div>
+
+        <div class="col-lg-8 d-flex justify-content-end mt-4">
+          <a href="" target="_blank"><i class="fa-brands fa-instagram fs_custom ml-3" style="color:#E1306C;"></i></a>
+          <a href="" target="_blank"><i class="fa-brands fa-x-twitter fs_custom ml-3" style="color: #000;"></i></a>
+          <a href="" target="_blank"><i class="fa-brands fa-facebook text-primary fs_custom ml-3"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="custom_container">
+    <div class="container">
+      <div class="text-center mt-2 pb-4 fade-in-up hidden">
+        <h1 class="font_custom1">Amberley House</h1>
+        <h5 class="text-secondary">Refined Spaces, Remarkable Living</h5>
+      </div>
+      <div class="row mb-4">
+        <div class="col-lg-6 clip-animate reveal-on-scroll" data-delay="1s">
+          <img src="assets/amberley-img.jpeg" alt="" style="width: 100%;border-radius: 30px;">
+        </div>
+        <div class="col-lg-6">
+          <div class="row">
+            <div class="col-lg-6 mt-4">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d547.7446950980943!2d-0.39855299561955093!3d51.657542860142684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48766ac146fb1029%3A0xeaf98f773632639a!2s19-21%20Clarendon%20Rd%2C%20Watford%20WD17%201JR%2C%20UK!5e0!3m2!1sen!2sin!4v1754561488905!5m2!1sen!2sin"
+                width="100%" height="100%" style="border:0;border-radius: 20px;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="col-lg-6 mt-4 clip-animate reveal-on-scroll" data-delay="2s">
+              <img src="assets/img2.jpg" alt="" style="width: 100%;border-radius: 20px;">
+            </div>
+            <div class="col-lg-12 mt-4 slide-in-right" data-delay="2000">
+              <h3 class="font_custom1 mt-2">Refined Living, Everyday Elegance</h3>
+              <p class="text-muted">
+                Amberley brings luxury to life with a seamless blend of timeless interiors and upscale amenities. From
+                concierge services to beautifully crafted interiors,
+                every detail is curated for those who appreciate comfort, quality, and class in equal measure.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="custom_container" style="background-image: linear-gradient(white 50%,black 50%);">
+    <div class="container">
+      <div class="text-center">
+        <h1 class="fw-bold font_custom1">Find Your Perfect Available Units</h1>
+        <p class="text-muted">Right Now</p>
+      </div>
+      <div class="row justify-content-center">
+
+        <div class="col-lg-3 text-center">
+          <div class="slide-in-left overflow-hidden" data-delay="0.3s" style="border-radius: 21px;">
+            <img src="assets/Home/Available_room.png" class="card-img-top" alt="House 2">
+          </div>
+          <div class="bg-white rounded mt-3 slide-in-left" data-delay="0.4s">
+            <div class="d-flex flex-column justify-content-between p-3">
+              <div>
+                <h5>1BHK</h5>
+                <p>Cozy, calm, and completely yours.</p>
+                <div class="d-flex justify-content-between text-muted mb-2">
+                  <div><i class="fa-solid fa-door-closed mr-2"></i>2</div>
+                  <div><i class="fa-solid fa-shower mr-2"></i>1</div>
+                  <div><i class="fa-solid fa-euro-sign mr-1"></i> 7,20,000</div>
+                </div>
+              </div>
+              <a href="#" class="text-primary fw-semibold text-decoration-none">See Details →</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 text-center">
+          <div class="overflow-hidden" style="border-radius: 21px;">
+            <img src="assets/Home/Available_room1.png" class="card-img-top" alt="House 2">
+          </div>
+          <div class="bg-white rounded mt-3">
+            <div class="d-flex flex-column justify-content-between p-3">
+              <div>
+                <h5>2BHK</h5>
+                <p>Twice the comfort, double the charm.</p>
+                <div class="d-flex justify-content-between text-muted mb-2">
+                  <div><i class="fa-solid fa-door-closed mr-2"></i>2</div>
+                  <div><i class="fa-solid fa-shower mr-2"></i>2</div>
+                  <div><i class="fa-solid fa-euro-sign mr-1"></i> 7,20,000</div>
+                </div>
+              </div>
+              <a href="#" class="text-primary fw-semibold text-decoration-none">See Details →</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 text-center">
+          <div class="slide-in-right overflow-hidden" data-delay="0.3s" style="border-radius: 21px;">
+            <img src="assets/Home/Available_room2.png" class="card-img-top" alt="House 2">
+          </div>
+          <div class="bg-white rounded mt-3 slide-in-right" data-delay="0.4s">
+            <div class="d-flex flex-column justify-content-between p-3">
+              <div>
+                <h5>STUDIO</h5>
+                <p>Designed for modern, minimal living.</p>
+                <div class="d-flex justify-content-between text-muted mb-2">
+                  <div><i class="fa-solid fa-door-closed mr-2"></i>2</div>
+                  <div><i class="fa-solid fa-shower mr-2"></i>2</div>
+                  <div><i class="fa-solid fa-euro-sign mr-1"></i> 7,20,000</div>
+                </div>
+              </div>
+              <a href="#" class="text-primary fw-semibold text-decoration-none">See Details →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="custom_container"
+    style="background-image: url('assets/bg-14.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;background-attachment: fixed;">
+    <div class="container">
+      <div class="row mt-4 mb-4">
+        <div class="col-lg-4">
+
+        </div>
+        <div class="col-lg-8 glass text-white p-3">
+          <h1 class="text-center font_custom1 mt-4 mb-3">Premium Facilities</h1>
+          <div class="row mb-4">
+            <div class="col-lg-6 d-flex mt-3 fade-in-up hidden" data-delay="1s">
+              <div>
+                <i class="fas fa-cloud-sun mr-2" style="font-size:40px;"></i>
+              </div>
+              <div>
+                <h5>Sky Gardens</h5>
+                <p>Unwind above it all with beautifully landscaped rooftop greenery—your private retreat in the sky.</p>
+              </div>
+            </div>
+            <div class="col-lg-6 d-flex mt-3 fade-in-up hidden" data-delay="1.5s">
+              <div>
+                <i class="fas fa-mug-hot mr-2" style="font-size:40px;"></i>
+              </div>
+              <div>
+                <h5>Café/Business Lounge</h5>
+                <p>Whether you're closing deals or catching up over coffee, the lounge is your space to work or unwind.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-6 d-flex mt-3 fade-in-up hidden" data-delay="2s">
+              <div>
+                <i class="fas fa-bell-concierge mr-2" style="font-size:40px;"></i>
+              </div>
+              <div>
+                <h5>Concierge Service</h5>
+                <p>Enjoy the convenience of hotel-style service at home—personalized support at your doorstep.</p>
+              </div>
+            </div>
+            <div class="col-lg-6 d-flex mt-3 fade-in-up hidden" data-delay="2.5s">
+              <div>
+                <i class="fas fa-bicycle mr-2" style="font-size:40px;"></i>
+              </div>
+              <div>
+                <h5>Secure Cycle Storage</h5>
+                <p>Keep your bike protected with secure, on-site cycle storage—peace of mind, every ride.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-dark text-white py-4">
+    <div class="container">
+      <div class="row gy-4 align-items-start">
+
+        <!-- Logo & Description -->
+        <div class="col-lg-4">
+          <img src="/assets/LOGOS/logo.svg" alt="Amberley House Logo" class="mb-3" style="width: 20%;">
+          <p>
+            Where Elegance Meets Everyday Living – Discover Your Sanctuary at Amberley House.
+            Nestled in a serene and prestigious location, Amberley House offers a perfect blend
+            of sophistication and comfort.
+          </p>
+        </div>
+
+
+        <div class="col-lg-4 d-flex flex-column align-items-start align-items-lg-center pt-3">
+          <div class="text-start">
+            <h4 class="mb-3">Quick Links</h4>
+            <nav aria-label="Footer navigation">
+              <ul class="list-unstyled fs-6 m-0 p-0">
+                <li class="mb-1">
+                  <a href="#" class="text-white text-decoration-none footer-link">Home</a>
+                </li>
+                <li class="mb-1">
+                  <a href="#" class="text-white text-decoration-none footer-link">Apartment</a>
+                </li>
+                <li class="mb-1">
+                  <a href="#" class="text-white text-decoration-none footer-link">About</a>
+                </li>
+                <li>
+                  <a href="#" class="text-white text-decoration-none footer-link">Contact</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <div class="pt-3">
+            <h4 class="mb-3">Contact</h4>
+            <address class="mb-0 text-white">
+              <p>
+                <strong>Email:</strong>
+                <a href="mailto:Emberly@gmail.com" class="text-white text-decoration-none footer-link">
+                  Emberly@gmail.com
+                </a>
+              </p>
+              <p>
+                <strong>Phone:</strong>
+                <a href="tel:+443322116633" class="text-white text-decoration-none footer-link">
+                  +44 3322 116633
+                </a>
+              </p>
+              <p>
+                <strong>Address:</strong>
+                123 London Main Road
+                Scotland, UK
+              </p>
+            </address>
+          </div>
+        </div>
+
+
+      </div>
+
+
+      <div class="row mt-5 pt-3 border-top align-items-center">
+        <!-- Left side: Text -->
+        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+          <p class="mb-0 small">
+            © 2025 <strong> Amberley House Luxury Apartment Ltd</strong>. All Rights Reserved.
+          </p>
+        </div>
+
+        <!-- Right side: Social Icons -->
+        <div class="col-md-6 text-center text-md-end">
+          <div class="d-inline-flex ">
+            <a href="#" class="text-white fs-5 px-2" aria-label="Twitter">
+              <i class="bi bi-twitter-x"></i>
+            </a>
+            <a href="#" class="text-white fs-5 px-2" aria-label="Instagram">
+              <i class="bi bi-instagram"></i>
+            </a>
+            <a href="#" class="text-white px-2" aria-label="Facebook">
+              <i class="bi bi-facebook"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+</body>
+
+</html>
