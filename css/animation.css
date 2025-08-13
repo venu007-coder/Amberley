@@ -58,7 +58,7 @@
 }
 
 .slide-in-right {
-  transform: translateX(50px);
+  transform: translateX(25px);
 }
 
 .slide-in-left.show,
@@ -97,6 +97,12 @@
   overflow: hidden;
   --motion-clip-start: polygon(0% 100%, 100% 100%, 100% 100%, 0% 100%);
   --motion-clip-end: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+
+    /* --motion-clip-start: polygon(0% 0%, 0% 100%, 0% 100%, 0% 0%);
+  --motion-clip-end: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%); */
+
+    /* --motion-clip-start: polygon(100% 0%, 100% 100%, 100% 100%, 100% 0%);
+  --motion-clip-end: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%); */
 }
 
 .clip-animate img {
@@ -111,6 +117,78 @@
   clip-path: var(--motion-clip-end);
 }
 
+.clip-animate1 {
+  width: 100%;
+  overflow: hidden;
+
+
+    /* --motion-clip-start: polygon(0% 0%, 0% 100%, 0% 100%, 0% 0%);
+  --motion-clip-end: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%); */
+
+    --motion-clip-start: polygon(100% 0%, 100% 100%, 100% 100%, 100% 0%);
+  --motion-clip-end: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+
+    /* --motion-clip-start: polygon(0% 0%, 100% 0%, 100% 0%, 0% 0%);
+  --motion-clip-end: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%); */
+}
+
+.clip-animate1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  clip-path: var(--motion-clip-start);
+  transition: clip-path 1s ease-in-out;
+}
+
+.clip-animate1.in-view img {
+  clip-path: var(--motion-clip-end);
+}
+
+.clip-animate2 {
+  width: 100%;
+  overflow: hidden;
+
+
+    --motion-clip-start: polygon(0% 0%, 0% 100%, 0% 100%, 0% 0%);
+  --motion-clip-end: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+
+    /* --motion-clip-start: polygon(0% 0%, 100% 0%, 100% 0%, 0% 0%);
+  --motion-clip-end: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%); */
+}
+
+.clip-animate2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  clip-path: var(--motion-clip-start);
+  transition: clip-path 1s ease-in-out;
+}
+
+.clip-animate2.in-view img {
+  clip-path: var(--motion-clip-end);
+}
+
+.clip-animate3 {
+  width: 100%;
+  overflow: hidden;
+
+    --motion-clip-start: polygon(0% 0%, 100% 0%, 100% 0%, 0% 0%);
+  --motion-clip-end: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+}
+
+.clip-animate3 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  clip-path: var(--motion-clip-start);
+  transition: clip-path 1s ease-in-out;
+}
+
+.clip-animate3.in-view img {
+  clip-path: var(--motion-clip-end);
+}
+
+
 .simple-slices { 
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -124,7 +202,7 @@
 
 /* every slice shows the same image but different background-position */
 .slice {
-  background-image: url('/assets/bg-12.jpg');
+  background-image: url('/assets/slice_image_1.svg');
   background-size: calc(var(--cols) * 100%) 100%; /* scale image so slices align */
   background-repeat: no-repeat;
   background-position: var(--pos) 0;
@@ -132,12 +210,13 @@
   transform-origin: left center;
   transform: rotateY(90deg);
   opacity: 0;
-  /* border-radius: 6px;
-  box-shadow: 0 6px 18px rgba(0,0,0,0.25); */
   transition: transform 700ms cubic-bezier(.2,.9,.2,1), opacity 850ms ease;
   will-change: transform, opacity;
+   margin-left: -1px;
 }
-
+.slice:first-child {
+  margin-left: 0;
+}
 /* when in-view class added, slices flip in */
 .simple-slices.in-view .slice {
   transform: rotateY(0deg);
@@ -149,3 +228,5 @@
 .simple-slices.in-view .slice:nth-child(2) { transition-delay: 160ms; }
 .simple-slices.in-view .slice:nth-child(3) { transition-delay: 240ms; }
 .simple-slices.in-view .slice:nth-child(4) { transition-delay: 320ms; }
+
+
